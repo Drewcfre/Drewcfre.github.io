@@ -1,11 +1,225 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-  </head>
-  <body>
-    <h1>qwertyuiop</h1>
-    <p>qwertyuiop</p>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <title>Andrew Jaarsma - Software Engineer</title>
+        <meta name="description" content="I'm a software engineer focused on creating reliable fullstack systems and applications." />
+        <meta name="keywords" content="software engineer, backend, frontend, full stack, systems, applications, clean code, readable code, Andrew Jaarsma" />
+        <meta name="author" content="Andrew Jaarsma" />
+
+        <link rel="icon" href="resources/images/favicon.svg" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!--header class="glass-background">
+            <div class="hf-content">
+                <div id="nav-name">Andrew Jaarsma</div>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header-->
+
+        <main>
+            <section id="introduction">
+                <div id="intro-grid" class="container">
+                    <div>
+                        <div class="status-row">
+                            <div class="dot"></div>
+                            <span class="status-text">Open to new opportunities — based in Salt Lake City</span>
+                        </div>
+
+                        <br/>
+
+                        <h1 id="intro-title">Hi — I'm <span id="typewriter">Andrew.</span><span class="blink-caret" aria-hidden="true"></h1>
+                        <p>I'm a software engineer focused on creating reliable full stack systems and applications.</p>
+
+                        <div id="intro-buttons">
+                            <button class="btn" onclick="document.location='#projects'">View projects</button>
+                            <button class="btn" onclick="document.location='#contact'">Get in touch</button>
+                        </div>
+
+                        <div id="marquee">
+                            <div id="marquee-content">
+                                <span>Java • SpringBoot • C# • Python • Web Development • JS • TS • NodeJS • Svelte • Express • Fastify • Docker • MySQL • MongoDB • Neo4j • Firebase • AWS • LocalStack • Workfront •</span>
+                                <span>Java • SpringBoot • C# • Python • Web Development • JS • TS • NodeJS • Svelte • Express • Fastify • Docker • MySQL • MongoDB • Neo4j • Firebase • AWS • LocalStack • Workfront •</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside id="dev-icon" class="container light-bg">
+                        <img src="resources/images/devicon.svg" alt="Developer Icon" width="260" height="260" />
+                    </aside>
+                </div>
+
+                <div id="arrow">
+                    <img src="resources/images/down-arrow.svg" alt="Down Arrow" width="50" height="50" />
+                </div>
+            </section>
+
+            <hr class="separator">
+
+            <section id="about" class="container light-bg">
+                <h1 id="about-title" class="slate-text">About Me</h1>
+
+                <div id="about-grid">
+                    <div id="picture-container">
+                        <img src="resources/images/profile.jpg" alt="Picture of me." width="135" height="180" />
+                    </div>
+                    <div>
+                        <p class="slate-text no-top-margin">
+                            I
+                            I enjoy building clean, readable, and reliable software.
+                            I utilize unit testing to ensure code quality and thoroughly document my work.
+                        </p>
+
+                        <div style="margin-top:1rem">
+                            <p class="slate-text">Skills</p>
+                            <div id="skills">
+                                <div class="slate-text">Java</div>
+                                <div class="slate-text">C#</div>
+                                <div class="slate-text">Python</div>
+                                <div class="slate-text">Web Development</div>
+                                <div class="slate-text">NodeJS</div>
+                                <div class="slate-text">Docker</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--section id="projects" class="container top-gap" aria-labelledby="projects-heading">
+                <h2 class="no-top-margin">Projects</h2>
+
+                <div class="projects-grid">
+                    <article class="project" aria-labelledby="p1-title">
+                        <div style="background:linear-gradient(180deg,#f3f3f3,#e9e9e9); height:110px; display:flex; align-items:center; justify-content:center;">
+                        <!-- placeholder image area >
+                        <svg width="86%" height="86%" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect width="160" height="90" rx="6" fill="#dcdcdc"/>
+                            <text x="12" y="52" font-family="Consolas, monospace" font-size="12" fill="#444">screenshot placeholder</text>
+                        </svg>
+                        </div>
+
+                        <div class="meta">
+                        <h3 id="p1-title">Forum2</h3>
+                        <div style="font-size:0.86rem; color:#666">2025</div>
+                        </div>
+
+                        <div class="desc">
+                        A unique social media platform, built from the ground up.
+                        The backend utilizes Firebase, creating a secure and maintainable codebase which can quickly be scaled.
+                        The frontend is built with Svelte and hosted on Vercel, with a focus on user experience.
+                        </div>
+
+                        <div class="links">
+                        <div style="display:flex;gap:0.5rem;align-items:center;">
+                            <span class="tag" style="background:var(--accent-blue); color:white;">Node.js</span>
+                            <span class="tag" style="background:var(--accent-teal); color:white;">TypeScript</span>
+                        </div>
+                        <div style="margin-left:auto; display:flex; gap:0.4rem;">
+                            <a class="icon" href="#" title="Live demo (placeholder)">
+                            <!-- small external link SVG >
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 3h7v7" stroke="#333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L21 3" stroke="#333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                            <a class="icon" href="#" title="Source">
+                            <!-- github icon stub >
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2c-5 0-9 4-9 9 0 3.9 2.5 7.2 6 8.4.4.1.5-.2.5-.3v-1.2c-2.4.5-2.9-1-2.9-1-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.7 1.3 1.9.9 2.4.7.1-.6.3-.9.6-1.1-2-.2-4-1-4-4.5 0-1 .4-1.8 1-2.4-.1-.2-.4-1.2.1-2.4 0 0 .8-.3 2.5 1 .7-.2 1.4-.3 2.1-.3s1.4.1 2.1.3c1.7-1.3 2.5-1 2.5-1 .5 1.2.2 2.2.1 2.4.6.6 1 1.4 1 2.4 0 3.5-2 4.3-4 4.5.3.3.6.8.6 1.6v2.3c0 .1.1.3.5.3 3.5-1.2 6-4.5 6-8.4 0-5-4-9-9-9z" fill="#333"/></svg>
+                            </a>
+                        </div>
+                        </div>
+                    </article>
+
+                    <article class="project" aria-labelledby="p2-title">
+                        <div style="background:linear-gradient(180deg, white, var(--light-grey)); height:110px; display:flex; align-items:center; justify-content:center;">
+                        <svg width="86%" height="86%" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect width="160" height="90" rx="6" fill="#dcdcdc"/>
+                            <text x="12" y="52" font-family="Consolas, monospace" font-size="12" fill="#444">screenshot placeholder</text>
+                        </svg>
+                        </div>
+
+                        <div class="meta">
+                            <h3>NoteTak</h3>
+                            <div style="font-size:0.86rem; color:#666"> July 2025</div>
+                        </div>
+
+                        <div class="desc">A simple cloud-based note-taking application. It allows users to create an account and store their notes securely.</div>
+
+                        <div class="links">
+                            <div style="display:flex;gap:0.5rem;align-items:center;">
+                                <span class="tag" style="background: var(--accent-orange);">Java</span>
+                                <span class="tag light-bg slate-text">JavaFX</span>
+                            </div>
+                            <div style="margin-left:auto; display:flex; gap:0.4rem;">
+                                <a class="btn btn-primary" href="https://www.google.com">Live Demo</a>
+
+                                <a class="icon" href="https://github.com/Drewcfre" target="_blank" rel="noopener" title="(Source) GitHub">
+                                    <img class="icon" src="resources/images/github.svg" alt="GitHub Icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section-->
+
+            <section id="education" class="container light-bg top-gap">
+                <h2 class="slate-text no-top-margin">Education & Experience</h2>
+
+                <div id="timeline">
+                    <div>
+                        <p class="slate-text">Neumont University — B.S. Software Engineering (September 2023 - August 2026)</p>
+                        <ul>
+                            <li class="timeline-desc">Gained experience with multiple programming languages and fundamental software engineering principles.</li>
+                            <li class="timeline-desc">Utilized popular databases and frameworks in both local and cloud environments.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="slate-text">Software Engineer - Adobe Intern (January 2026 - March 2026)</p>
+                        <ul>
+                            <li class="timeline-desc">Responsible for the development and optimization of multiple internal developer tools.</li>
+                            <li class="timeline-desc">Gained experience with AWS and LocalStack.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="container light-bg">
+                <h2 class="slate-text">Contact</h2>
+
+                <div id="contact-list">
+                    <a class="btn btn-primary" href="mailto:ajaarsma2@gmail.com">Email me</a>
+
+                    <div id="socials">
+                        <a class="icon" href="https://github.com/Drewcfre" target="_blank" rel="noopener" title="GitHub">
+                            <img class="icon" src="resources/images/github.svg" alt="GitHub Icon" />
+                        </a>
+
+                        <a class="icon" href="https://www.linkedin.com/in/andrew-jaarsma-b6631935b" target="_blank" rel="noopener" title="LinkedIn">
+                            <img class="icon" src="resources/images/linkedin.svg" alt="LinkedIn Icon" />
+                        </a>
+
+                        <a class="icon" href="https://dev.to/ajaarsma" target="_blank" rel="noopener" title="Dev">
+                            <img class="icon" src="resources/images/dev.svg" alt="Dev Icon" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="glass-background">
+            <div class="hf-content">
+                <div>© 2026 Andrew Jaarsma</div>
+                <div>Built with HTML, CSS, & minimal JS</div>
+            </div>
+
+            <script src="js/typewriter.js"></script>
+        </footer>
+    </body>
 </html>

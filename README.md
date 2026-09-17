@@ -1,2 +1,2 @@
 # Drewcfre.github.io
-A portfolio website showcasing my education background, development experience, and personal projects.
+A portfolio website showcasing my educational background, certifications, development experience, and personal projects.
